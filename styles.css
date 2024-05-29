@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    font-family: "Montserrat", sans-serif;
+    --black: #000;
+    --white: #fff;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* top section */
+
+.top-section {
+    text-align: center;
+}
+
+.main__heading {
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+.main__subheading {
+    font-size: 1.2em;
+}
+
+/* socials */
+
+
+.socials-section {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin: 10em 10em;
+}
+
+.social__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 4.375em 5em 4.375em;
+    width: 10em;
+    border: var(--black) solid;
+    border-radius: 10px;
+    transition: transform .5s ease-in;
+}
+
+.social__container:hover {
+    transform: translateY(-20px);
+}
+
+.social__link {
+    text-decoration: none;
+    color: var(--black);
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    padding: 2em;
+    border-top: #000 solid 1px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--black);
+    transition: transform .5s ease-in;
+}
+
+.footer__link:hover {
+    transform: translateY(-5px);
+}
