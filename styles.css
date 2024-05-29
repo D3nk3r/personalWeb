@@ -11,6 +11,35 @@ body {
 }
 
 
+/* top nav menu*/
+
+.top-nav {
+    padding: 0.5em;
+    border-bottom: solid 1px var(--black);
+}
+
+.top-list {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.top-list__item {
+    list-style: none;
+}
+
+.top-list__link {
+    text-decoration: none;
+    color: var(--black);
+    transition: transform .5s ease-in;
+}
+
+.top-list__link:hover {
+    transform: translateY(-5px);
+}
+
+
+
 /* top section */
 
 .top-section {
